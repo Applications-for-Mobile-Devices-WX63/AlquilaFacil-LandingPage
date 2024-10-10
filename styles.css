@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10dvh;
+}
+
+.hero::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 60dvh;
+  background: linear-gradient(rgba(251, 158, 73, 0.9), rgba(251, 158, 73, 0.9)), url('./assets/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+
+.dropdown-content {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
