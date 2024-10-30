@@ -10,20 +10,20 @@
   <title>AlquilaFácil</title>
 </head>
 <body>
-  <nav data-aos='fade-down' data-aos-duration='800' class='bg-white fixed flex justify-between w-full h-[10dvh] px-4 sm:px-8 md:px-10 lg:px-16 gap-6 z-50 top-0'>
+  <nav data-aos='fade-down' data-aos-duration='800' class='bg-white fixed flex justify-between w-full h-[10dvh] px-4 sm:px-8 md:px-10 lg:px-16 gap-6 z-50 top-0 shadow-lg'>
     <a href='#hero' class='flex items-center gap-2 hover:opacity-75 transition font-semibold'>
       <img src='./assets/logo.png' alt="logo" class='min-w-14 h-14' />
       <p class='hidden sm:flex text-2xl'>AlquilaFácil</p>
     </a>
     <div class='flex items-center justify-end'>
-      <ul class="flex gap-3 sm:gap-8 md:gap-16 lg:gap-32 xl:gap-44 text-sm sm:text-xl">
-        <li class='hover:opacity-75 transition'>
+      <ul class="flex gap-3 sm:gap-6 md:gap-10 lg:gap-24 xl:gap-36 text-sm sm:text-xl lg:text-2xl ">
+        <li class='transition px-3 border-x-2 border-amber-400 hover:text-[#D13333]'>
           <a href='#discover' class='cursor-pointer'>DESCUBRIR</a>
         </li>
-        <li class='hover:opacity-75 transition'>
+        <li class='transition px-3 border-x-2 border-amber-400 hover:text-[#D13333]'>
           <a href='#publish' class='cursor-pointer'>PUBLICAR</a>
         </li>
-        <li class='hover:opacity-75 transition cursor-pointer'>
+        <li class='transition px-3 border-x-2 border-amber-400 hover:text-[#D13333]'>
           <a href='#benefits' class='cursor-pointer'>BENEFICIOS</a>
         </li>
       </ul>
@@ -31,13 +31,13 @@
   </nav>
   <main class="pt-[10dvh]">
     <section id="hero" class="w-full min-h-[90dvh]">
-      <div class="hero w-full h-[50dvh] px-4 sm:px-8 md:px-10 lg:px-32 overflow-hidden flex flex-col-reverse md:flex-row justify-between md:justify-center items-center gap-4 md:gap-10 relative ">
+      <div class="hero w-full h-[50dvh] px-4 sm:px-8 md:px-10 lg:px-32 overflow-hidden flex flex-col-reverse md:flex-row justify-between md:justify-center items-center gap-4 md:gap-10 relative shadow-lg ">
         <img data-aos='fade-up' data-aos-duration='800' src=./assets/search-phone.png alt="search-phone" class='h-[30dvh] md:h-[60dvh]'/>
-        <h1 class='text-3xl sm:text-4xl lg:text-6xl text-white text-center md:text-start text-balance pt-10 md:pt-0 font-semibold md:w-1/2'>Encuentra el <span class="font-bold text-[#D13333]">espacio perfecto</span> para tus eventos en cualquier lugar y momento.</h1>
+        <h1 class='text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-white text-center md:text-start text-balance pt-10 md:pt-0 font-semibold md:w-1/2'>Encuentra el <span class="font-bold text-[#D13333]">espacio perfecto</span> para tus eventos en cualquier lugar y momento.</h1>
       </div>
-      <div class="w-full min-h-[25dvh] px-5 md:px-10 xl:px-32 py-4 md:py-10 lg:py-16 flex flex-col justify-center items-center gap-4 md:gap-10">
+      <div id="download" class="w-full min-h-[40dvh] h-full px-5 md:px-10 xl:px-32 py-4 md:py-10 lg:py-16 flex flex-col justify-center items-center gap-4 md:gap-10 shadow-lg">
         <p class="text-center text-sm sm:text-md lg:text-xl text-balance font-medium">
-          AlquilaFácil te ayuda a encontrar el espacio perfecto para cualquier evento de manera rápida y sencilla. Desde salones de fiesta hasta oficinas, explora opciones disponibles y gestiona tus reservas desde la app.
+          <span class="font-bold text-[#D13333]">AlquilaFácil</span> te ayuda a encontrar el espacio perfecto para cualquier evento de manera rápida y sencilla. Desde salones de fiesta hasta oficinas, explora opciones disponibles y gestiona tus reservas desde la app.
         </p>
         <p class="text-center text-xl sm:text-2xl lg:text-3xl font-semibold text-balance">
           ¿Listo para encontrar el espacio ideal para tu próximo evento?
@@ -92,30 +92,61 @@
         </div>
       </div>
     </section>
-    <section id="publish" class="w-full py-20 px-5 sm:px-10 lg:px-32 min-h-[40dvh]">
-      <div class="max-w-7xl mx-auto flex flex-col gap-10">
-        <h2 class="text-center text-2xl sm:text-4xl font-bold text-[#D13333]">PUBLICA TU ESPACIO</h2>
-        <div class="flex flex-col md:flex-row justify-center items-center gap-10">
-          <div class="flex flex-col gap-12 md:w-1/2 text-center md:text-start">
-            <p class="text-md sm:text-lg lg:text-xl text-gray-800 ">
-              En AlquilaFácil, tienes la oportunidad de compartir tu espacio único con una amplia audiencia. Al registrarte en nuestra aplicación, podrás publicar tu espacio para eventos, reuniones o celebraciones y conectarte con personas que buscan el lugar perfecto.
-            </p>
-            <p class=" text-md sm:text-lg lg:text-xl text-gray-800">
-              Simplemente describe tu espacio, establece tu disponibilidad y precio, y comienza a recibir reservas. AlquilaFácil te proporciona la plataforma ideal para maximizar el uso de tu espacio y generar ingresos adicionales.
-            </p>
-            <div>
-              <a href="https://play.google.com/store" class="bg-[#D13333] text-white font-semibold rounded-lg p-4 hover:bg-[#A12727] transition text-xl">Comienza a publicar</a>
+    <section id="publish" class="w-full relative min-h-[60dvh] shadow-lg">
+      <div class="w-full max-w-7xl mx-auto flex flex-col gap-24 py-20 px-5 sm:px-10 lg:px-32">
+        <div class="w-full flex flex-col gap-5">
+          <h2 class="text-center text-2xl sm:text-4xl font-bold text-[#D13333]">PUBLICA TU ESPACIO</h2>
+          <div class="flex flex-col md:flex-row justify-center items-center gap-10">
+            <div class="flex flex-col gap-12 md:w-1/2 text-center md:text-start">
+              <p class="text-md sm:text-lg lg:text-xl text-gray-800 ">
+                En <span class="font-bold text-[#D13333]">AlquilaFácil</span>, tienes la oportunidad de compartir tu espacio único con una amplia audiencia. Al registrarte en nuestra aplicación, podrás publicar tu espacio para eventos, reuniones o celebraciones y conectarte con personas que buscan el lugar perfecto.
+              </p>
+              <p class=" text-md sm:text-lg lg:text-xl text-gray-800">
+                Simplemente describe tu espacio, establece tu disponibilidad y precio, y comienza a recibir reservas. <span class="font-bold text-[#D13333]">AlquilaFácil</span> te proporciona la plataforma ideal para maximizar el uso de tu espacio y generar ingresos adicionales.
+              </p>
+              <div>
+                <a href="https://play.google.com/store" class="bg-[#D13333] text-white font-semibold rounded-lg p-4 hover:bg-[#A12727] transition text-xl">Comienza a publicar</a>
+              </div>
+            </div>
+            <img data-aos='fade-left' data-aos-duration='800' src="./assets/publish-phone.png" alt="Publish" class=" h-[50dvh] object-fill rounded-lg" />
+          </div>
+        </div>
+        <div class="w-full flex flex-col">
+          <p class="text-center text-xl">Algunos de estos usuarios de <span class="font-bold text-[#D13333]">AlquilaFácil</span> están en busca de tu espacio:</p>
+          <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <img src="assets/eventos-1.webp" alt="Eventos Eventos" />
+              </div>
+              <div class="slide">
+                <img src="assets/eventos-2.webp" alt="Eventos eventos" />
+              </div>
+              <div class="slide">
+                <img src="assets/eventos-3.png" alt="Eventos eventos" />
+              </div>
+              <div class="slide">
+                <img src="assets/eventos-4.png" alt="Eventos eventos" />
+              </div>
+              <div class="slide">
+                <img src="assets/eventos-5.png" alt="Eventos eventos" />
+              </div>
+              <div class="slide">
+                <img src="assets/eventos-6.png" alt="Eventos eventos" />
+              </div>
+              <div class="slide">
+                <img src="assets/eventos-7.png" alt="Eventos eventos" />
+              </div>
             </div>
           </div>
-          <img data-aos='fade-left' data-aos-duration='800' src="./assets/publish-phone.png" alt="Publish" class=" h-[50dvh] object-fill rounded-lg" />
+          <p class="text-center text-2xl font-bold">¿Qué esperas para comenzar a alquilar tus espacios?</p>
         </div>
       </div>
     </section>
-    <section id="benefits" class="w-full py-20 px-5 sm:px-10 lg:px-32 bg-[#FB9E49]">
-      <div class="max-w-7xl mx-auto">
+    <section id="benefits" class="w-full relative">
+      <div class="max-w-7xl mx-auto py-20 px-5 sm:px-10 lg:px-32">
         <h2 class="text-center text-2xl sm:text-4xl font-bold mb-6 text-white">BENEFICIOS DE USAR ALQUILAFÁCIL</h2>
         <p class="text-center text-md sm:text-lg lg:text-xl text-white mb-8">
-          Con AlquilaFácil, tanto anfitriones como usuarios disfrutan de una experiencia única y enriquecedora. Aquí hay algunas ventajas clave:
+          Con <span class="font-bold text-[#D13333]">AlquilaFácil</span>, tanto anfitriones como usuarios disfrutan de una experiencia única y enriquecedora. Aquí hay algunas ventajas clave:
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
           <div data-aos='zoom-in' data-aos-duration='800' class="bg-white shadow-lg rounded-lg p-6 transition hover:shadow-2xl">
