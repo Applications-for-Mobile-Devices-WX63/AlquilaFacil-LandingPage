@@ -51,7 +51,6 @@ html {
   z-index: -1;
 }
 
-
 #benefits:before {
   content: '';
   position: absolute;
@@ -64,7 +63,6 @@ html {
   position: absolute;
   z-index: -1;
 }
-
 
 .slider {
   width: 100%;
